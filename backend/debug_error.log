@@ -1,0 +1,34 @@
+2026-03-09T06:37:42.185Z - POST /api/auth/login - getaddrinfo ENOTFOUND ac-izfo0gx-shard-00-02.d6solri.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-izfo0gx-shard-00-02.d6solri.mongodb.net
+    at Topology.selectServer (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\sdam\topology.js:346:38)
+    at async tryOperation (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\operations\execute_operation.js:150:18)
+    at async executeOperation (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\operations\execute_operation.js:80:16)
+    at async FindCursor._initialize (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:620:27)
+    at async FindCursor.fetchBatch (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:654:13)
+    at async FindCursor.next (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:326:17)
+    at async Collection.findOne (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongoose\lib\query.js:2731:15)
+    at async model.Query.exec (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongoose\lib\query.js:4687:63)
+
+2026-03-09T06:38:17.923Z - POST /api/auth/login - getaddrinfo ENOTFOUND ac-izfo0gx-shard-00-02.d6solri.mongodb.net
+MongoServerSelectionError: getaddrinfo ENOTFOUND ac-izfo0gx-shard-00-02.d6solri.mongodb.net
+    at Topology.selectServer (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\sdam\topology.js:346:38)
+    at async tryOperation (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\operations\execute_operation.js:150:18)
+    at async executeOperation (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\operations\execute_operation.js:80:16)
+    at async FindCursor._initialize (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\find_cursor.js:62:26)
+    at async FindCursor.cursorInit (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:620:27)
+    at async FindCursor.fetchBatch (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:654:13)
+    at async FindCursor.next (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cursor\abstract_cursor.js:326:17)
+    at async Collection.findOne (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\collection.js:313:24)
+    at async model.Query._findOne (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongoose\lib\query.js:2731:15)
+    at async model.Query.exec (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongoose\lib\query.js:4687:63)
+
+2026-04-01T05:18:59.162Z - GET /api/academic-content/search - read ECONNRESET
+MongoNetworkError: read ECONNRESET
+    at Connection.onSocketError (C:\Users\ACER\OneDrive\Desktop\mini project'\backend\node_modules\mongodb\lib\cmap\connection.js:124:22)
+    at TLSSocket.emit (node:events:520:35)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+
