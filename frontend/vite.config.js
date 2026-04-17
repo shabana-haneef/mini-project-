@@ -12,7 +12,7 @@ export default defineConfig({
         changeOrigin: true,
       },
       '/uploads': {
-        target: 'http://localhost:5000',
+        target: 'https://campusconnect-8aw8.onrender.com/',
         changeOrigin: true,
       },
     },
