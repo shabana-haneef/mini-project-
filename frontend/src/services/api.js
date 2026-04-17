@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: '',
+    baseURL: 'https://campusconnect-8aw8.onrender.com',
     withCredentials: true,
 });
 
